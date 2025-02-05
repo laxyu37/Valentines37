@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('PINK💗.jpg');
+    font-family: 'Indie Flower', cursive;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffebee;
+    box-shadow: 0 0 20px rgba(255, 107, 129, 0.5);
+    padding: 40px;
+    border-radius: 70px;
+    border: 3px solid #ff6b81;
+    box-shadow: 0 8px 20px rgba(255, 107, 129, 0.3);
+    max-width: 400px;
+    width: 90%;
+}
+
+.yes_text {
+    font-size: 30px;
+    color: #ff4757;
+    font-weight: bold;
+}
+
+.image-container {
+    width: 400px;
+    height: 355px;
+    background-image: url('https://media.tenor.com/n6QnvTFAuR8AAAAi/bugcat-capoo.gif');
+    background-size: cover;
+    background-position: center;
+  }
+
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.textbox2 {
+    font-size: 20px;
+    color: #ff4757;
+    font-weight: bold;
+}

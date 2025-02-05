@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('image.jpg');
+    font-family: 'Indie Flower', cursive;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffebee;
+    box-shadow: 0 0 20px rgba(255, 107, 129, 0.5);
+    padding: 40px;
+    border-radius: 20px;
+    border: 3px solid #ff6b81;
+    box-shadow: 0 8px 20px rgba(255, 107, 129, 0.3);
+    max-width: 400px;
+    width: 90%;
+}
+
+.gif_container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+#yButton {
+    background-color: #ff4757;
+    border-color: #ff4757;
+}
+
+#yButton:hover {
+    background-color: white;
+    color: #ff4757;
+}
+#nButton {
+    background-color: #ff4757;
+    border-color: #ff4757;
+}
+
+#nButton:hover {
+    background-color: white;
+    color: #ff4757;
+}
+
+.b {
+    margin-right: 10px;
+    padding: 12px 24px;
+    font-size: 25px;
+    border: 2px solid #ff4757;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    background-color: #ff4757;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    box-shadow: 0 4px 10px rgba(255, 107, 129, 0.3);
+}
+
+.b:hover {
+    background-color: white;
+    color: #ff4757;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 107, 129, 0.4);
+}
+
+.val_text{
+    font-family: "Indie Flower", cursive;
+    font-size: 47px;
+    margin-bottom: 20px;
+    color: #FF6863;
+    text-shadow: 1px 1px 2px #FF6863;
+}
+
+.image-container {
+    width: 400px;
+    height: 355px;
+    background-image: url('https://media.tenor.com/MM7S5R6B_dIAAAAi/bugcat-bugcatsticker.gif');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .image-container.changed {
+    background-image: url('https://media.tenor.com/W1HeRvdNz1gAAAAi/bugcat-capoo.gif');
+  }
