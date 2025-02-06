@@ -6,7 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: url('image.jpg');
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower';
     overflow: hidden;
 }
 
@@ -58,7 +58,7 @@ body {
     transition: all 0.2s ease-in-out;
     background-color: #ff4757;
     color: white;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Indie Flower';
     box-shadow: 0 4px 10px rgba(255, 107, 129, 0.3);
 }
 
